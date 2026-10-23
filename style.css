@@ -1,0 +1,35 @@
+img{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+    animation-name: yur;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes yur{
+    0%{
+        transform: translate(0, 500px) skew(-10deg);
+    }
+    20%{
+        transform: translate(200px, 0) ;
+    }
+    40%{
+        transform: translate(400px, 500px) skew(-10deg);
+    }
+    60%{
+        transform: translate(600px, 0);
+    }
+    70%{
+        transform: translate(800px,500px) skew(-10deg);
+    }
+    80%{
+        transform: translate(1000px,0);
+    }
+    90%{
+        transform: translate(1200px,500px) skew(-10deg);
+    }
+    100%{
+        transform: translate(1400px,0);
+    }
+}
